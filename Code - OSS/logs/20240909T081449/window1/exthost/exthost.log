@@ -25,3 +25,4 @@
 	at async T.getBranchBase (/usr/lib/code/extensions/git/dist/main.js:2:1020363)
 	at async t.GitHistoryProvider.resolveHEADMergeBase (/usr/lib/code/extensions/git/dist/main.js:2:948043)
 	at async t.GitHistoryProvider.onDidRunGitStatus (/usr/lib/code/extensions/git/dist/main.js:2:941421)
+2024-09-09 08:37:00.836 [warning] [Decorations] CAPPING events from decorations provider vscode.git 358

@@ -1,0 +1,3 @@
+[shell]
+args = ["--login", "-c", "neofetch; exec /bin/bash"]
+program = "/bin/bash"

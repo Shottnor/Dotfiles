@@ -50,3 +50,293 @@
 2024-09-09 08:34:33.191 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [86ms]
 2024-09-09 08:34:33.262 [info] > git check-ignore -v -z --stdin [1ms]
 2024-09-09 08:35:04.826 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-09 08:37:00.803 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-09 08:37:00.805 [info] > git config --get commit.template [10ms]
+2024-09-09 08:37:00.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-09 08:37:00.819 [info] > git status -z -uall [4ms]
+2024-09-09 08:37:00.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-09-09 08:37:00.861 [info] > git config --local branch.master.vscode-merge-base [11ms]
+2024-09-09 08:37:00.861 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:37:00.875 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [15ms]
+2024-09-09 08:37:00.888 [info] > git cat-file -s ddc83a2c279ed6b61ca8f3d7809ab0dc26f58730 [2ms]
+2024-09-09 08:37:00.905 [info] > git show --textconv :i3/config [3ms]
+2024-09-09 08:37:00.909 [info] > git reflog master --grep-reflog=branch: Created from *. [38ms]
+2024-09-09 08:37:00.934 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2024-09-09 08:37:00.934 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:37:10.956 [info] > git config --get commit.template [11ms]
+2024-09-09 08:37:10.963 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-09 08:37:10.964 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [10ms]
+2024-09-09 08:37:10.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-09 08:37:10.979 [info] > git cat-file -s ddc83a2c279ed6b61ca8f3d7809ab0dc26f58730 [7ms]
+2024-09-09 08:37:10.983 [info] > git status -z -uall [5ms]
+2024-09-09 08:37:10.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:37:11.010 [info] > git config --local branch.main.vscode-merge-base [8ms]
+2024-09-09 08:37:11.011 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:37:11.020 [info] > git show --textconv :i3/config [12ms]
+2024-09-09 08:37:11.022 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:37:11.035 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 08:37:11.035 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:37:23.790 [info] > git config --get commit.template [10ms]
+2024-09-09 08:37:23.800 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [11ms]
+2024-09-09 08:37:23.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-09-09 08:37:23.822 [info] > git cat-file -s ddc83a2c279ed6b61ca8f3d7809ab0dc26f58730 [13ms]
+2024-09-09 08:37:23.837 [info] > git status -z -uall [17ms]
+2024-09-09 08:37:23.851 [info] > git show --textconv :i3/config [15ms]
+2024-09-09 08:37:23.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:37:23.866 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-09-09 08:37:23.866 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:37:23.881 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:37:23.891 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:37:23.891 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:41:58.669 [info] > git config --get commit.template [6ms]
+2024-09-09 08:41:58.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:41:58.683 [info] > git status -z -uall [6ms]
+2024-09-09 08:41:58.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:41:58.708 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-09 08:41:58.709 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:41:58.721 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:41:58.732 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:41:58.732 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:48:56.141 [info] > git config --get commit.template [8ms]
+2024-09-09 08:48:56.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:48:56.158 [info] > git status -z -uall [8ms]
+2024-09-09 08:48:56.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-09 08:48:56.185 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:48:56.185 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:48:56.207 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:48:56.219 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 08:48:56.219 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:49:37.770 [info] > git config --get commit.template [9ms]
+2024-09-09 08:49:37.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:49:37.785 [info] > git status -z -uall [7ms]
+2024-09-09 08:49:37.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:49:37.812 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-09 08:49:37.812 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:49:37.825 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:49:37.835 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:49:37.835 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:51:47.437 [info] > git config --get commit.template [10ms]
+2024-09-09 08:51:47.445 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-09 08:51:47.445 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [9ms]
+2024-09-09 08:51:47.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-09 08:51:47.464 [info] > git cat-file -s ddc83a2c279ed6b61ca8f3d7809ab0dc26f58730 [9ms]
+2024-09-09 08:51:47.478 [info] > git status -z -uall [16ms]
+2024-09-09 08:51:47.492 [info] > git show --textconv :i3/config [15ms]
+2024-09-09 08:51:47.492 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-09 08:51:47.505 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:51:47.505 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:51:47.519 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2024-09-09 08:51:47.529 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:51:47.529 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:52:23.937 [info] > git config --get commit.template [12ms]
+2024-09-09 08:52:23.949 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [13ms]
+2024-09-09 08:52:23.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-09-09 08:52:23.974 [info] > git cat-file -s ddc83a2c279ed6b61ca8f3d7809ab0dc26f58730 [13ms]
+2024-09-09 08:52:23.991 [info] > git status -z -uall [19ms]
+2024-09-09 08:52:24.007 [info] > git show --textconv :i3/config [17ms]
+2024-09-09 08:52:24.007 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:52:24.024 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-09 08:52:24.024 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:52:24.039 [info] > git reflog main --grep-reflog=branch: Created from *. [6ms]
+2024-09-09 08:52:24.051 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 08:52:24.051 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:52:29.020 [info] > git config --get commit.template [5ms]
+2024-09-09 08:52:29.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:52:29.028 [info] > git status -z -uall [5ms]
+2024-09-09 08:52:29.034 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:52:29.039 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-09-09 08:52:29.039 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:52:29.044 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:52:29.048 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:52:29.048 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:52:37.192 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-09 08:52:38.148 [info] > git config --get commit.template [5ms]
+2024-09-09 08:52:38.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:52:38.157 [info] > git status -z -uall [5ms]
+2024-09-09 08:52:38.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:52:38.168 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:52:38.168 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:52:38.177 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:52:38.186 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-09 08:52:38.186 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:52:38.693 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-09 08:53:33.501 [info] > git config --get commit.template [12ms]
+2024-09-09 08:53:33.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:53:33.521 [info] > git status -z -uall [9ms]
+2024-09-09 08:53:33.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:53:33.540 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:53:33.540 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:53:33.553 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:53:33.563 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:53:33.563 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:09.203 [info] > git config --get commit.template [2ms]
+2024-09-09 08:54:09.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:54:09.227 [info] > git status -z -uall [7ms]
+2024-09-09 08:54:09.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:54:09.248 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-09 08:54:09.248 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:09.261 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:54:09.271 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:09.271 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:14.247 [info] > git config --get commit.template [2ms]
+2024-09-09 08:54:14.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:14.265 [info] > git status -z -uall [9ms]
+2024-09-09 08:54:14.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-09 08:54:14.281 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:54:14.281 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:14.290 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:54:14.295 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:14.295 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:19.282 [info] > git config --get commit.template [4ms]
+2024-09-09 08:54:19.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:19.294 [info] > git status -z -uall [8ms]
+2024-09-09 08:54:19.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:54:19.308 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:19.308 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:19.314 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:19.318 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:19.318 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:24.311 [info] > git config --get commit.template [1ms]
+2024-09-09 08:54:24.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:24.327 [info] > git status -z -uall [9ms]
+2024-09-09 08:54:24.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:54:24.340 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:24.340 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:24.346 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:24.350 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:24.350 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:29.927 [info] > git config --get commit.template [5ms]
+2024-09-09 08:54:29.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-09-09 08:54:29.938 [info] > git status -z -uall [7ms]
+2024-09-09 08:54:29.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:29.952 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:29.952 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:29.958 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:29.962 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:29.962 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:34.990 [info] > git config --get commit.template [4ms]
+2024-09-09 08:54:34.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:35.001 [info] > git status -z -uall [7ms]
+2024-09-09 08:54:35.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:35.015 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:54:35.015 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:35.020 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:35.025 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-09-09 08:54:35.025 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:40.950 [info] > git config --get commit.template [5ms]
+2024-09-09 08:54:40.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:54:40.962 [info] > git status -z -uall [8ms]
+2024-09-09 08:54:40.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:40.973 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:40.973 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:40.978 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:40.982 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:40.982 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:45.979 [info] > git config --get commit.template [5ms]
+2024-09-09 08:54:45.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:45.989 [info] > git status -z -uall [7ms]
+2024-09-09 08:54:45.994 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:45.999 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:45.999 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:46.004 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:46.008 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:46.008 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:51.005 [info] > git config --get commit.template [4ms]
+2024-09-09 08:54:51.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:51.017 [info] > git status -z -uall [8ms]
+2024-09-09 08:54:51.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:51.028 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:51.028 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:51.034 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 08:54:51.038 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:51.038 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:54:56.035 [info] > git config --get commit.template [3ms]
+2024-09-09 08:54:56.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:56.046 [info] > git status -z -uall [8ms]
+2024-09-09 08:54:56.051 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:54:56.056 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:54:56.057 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:54:56.062 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:54:56.066 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:54:56.066 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:55:01.063 [info] > git config --get commit.template [4ms]
+2024-09-09 08:55:01.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:55:01.075 [info] > git status -z -uall [8ms]
+2024-09-09 08:55:01.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:55:01.088 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:55:01.088 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:55:01.093 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:55:01.097 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:55:01.097 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:55:18.847 [info] > git config --get commit.template [10ms]
+2024-09-09 08:55:18.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:55:18.867 [info] > git status -z -uall [11ms]
+2024-09-09 08:55:18.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:55:18.892 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:55:18.892 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:55:18.906 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:55:18.916 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 08:55:18.916 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:55:24.013 [info] > git config --get commit.template [4ms]
+2024-09-09 08:55:24.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:55:24.024 [info] > git status -z -uall [7ms]
+2024-09-09 08:55:24.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:55:24.034 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 08:55:24.034 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:55:24.039 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:55:24.043 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:55:24.043 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:58:23.084 [info] > git config --get commit.template [13ms]
+2024-09-09 08:58:23.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:58:23.106 [info] > git status -z -uall [13ms]
+2024-09-09 08:58:23.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:58:23.128 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:58:23.128 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:58:23.146 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:58:23.164 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-09 08:58:23.164 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:58:45.992 [info] > git config --get commit.template [13ms]
+2024-09-09 08:58:45.993 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-09 08:58:46.013 [info] > git status -z -uall [10ms]
+2024-09-09 08:58:46.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:58:46.041 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-09 08:58:46.041 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:58:46.056 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:58:46.069 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 08:58:46.069 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:59:41.140 [info] > git config --get commit.template [10ms]
+2024-09-09 08:59:41.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 08:59:41.165 [info] > git status -z -uall [13ms]
+2024-09-09 08:59:41.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-09 08:59:41.195 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:59:41.195 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:59:41.209 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 08:59:41.220 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-09 08:59:41.220 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 08:59:46.194 [info] > git config --get commit.template [4ms]
+2024-09-09 08:59:46.194 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:59:46.205 [info] > git status -z -uall [8ms]
+2024-09-09 08:59:46.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-09 08:59:46.218 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 08:59:46.218 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 08:59:46.224 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-09 08:59:46.229 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-09 08:59:46.229 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 09:00:18.638 [info] > git config --get commit.template [14ms]
+2024-09-09 09:00:18.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 09:00:18.659 [info] > git status -z -uall [11ms]
+2024-09-09 09:00:18.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 09:00:18.683 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-09 09:00:18.683 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 09:00:18.697 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-09 09:00:18.707 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 09:00:18.707 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-09 09:01:12.316 [info] > git config --get commit.template [11ms]
+2024-09-09 09:01:12.317 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-09 09:01:12.336 [info] > git status -z -uall [10ms]
+2024-09-09 09:01:12.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-09 09:01:12.359 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-09 09:01:12.359 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-09 09:01:12.371 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-09 09:01:12.381 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-09 09:01:12.381 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
