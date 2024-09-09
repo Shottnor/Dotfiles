@@ -1,0 +1,52 @@
+2024-09-09 08:15:24.177 [info] [main] Log level: Info
+2024-09-09 08:15:24.177 [info] [main] Validating found git in: "git"
+2024-09-09 08:15:25.036 [info] [main] Using git "2.46.0" from "git"
+2024-09-09 08:15:25.036 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-09 08:15:25.279 [info] > git rev-parse --show-toplevel [229ms]
+2024-09-09 08:15:25.279 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.762 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-09 08:15:25.762 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.768 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.768 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.772 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.772 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.777 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-09 08:15:25.777 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.781 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.781 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.785 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.785 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.790 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.796 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.796 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.800 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.800 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.804 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.804 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.807 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.807 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.811 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:15:25.811 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-09 08:15:25.811 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-09 08:34:32.724 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-09 08:34:32.730 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-09 08:34:32.738 [info] [Model][openRepository] Opened repository: /home/loknor/.config
+2024-09-09 08:34:32.746 [info] > git config --get commit.template [2ms]
+2024-09-09 08:34:32.753 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-09 08:34:32.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2024-09-09 08:34:32.774 [warning] [Git][getBranch] No such branch: master
+2024-09-09 08:34:32.787 [info] > git status -z -uall [8ms]
+2024-09-09 08:34:32.811 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-09-09 08:34:32.811 [warning] [Git][getBranch] No such branch: master
+2024-09-09 08:34:32.813 [info] > git config --get commit.template [2ms]
+2024-09-09 08:34:32.819 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-09 08:34:32.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-09 08:34:32.820 [warning] [Git][getBranch] No such branch: master
+2024-09-09 08:34:32.827 [info] > git status -z -uall [3ms]
+2024-09-09 08:34:32.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [56ms]
+2024-09-09 08:34:32.888 [warning] [Git][getBranch] No such branch: master
+2024-09-09 08:34:33.106 [info] > git show --textconv :i3/config [5ms]
+2024-09-09 08:34:33.191 [info] > git ls-files --stage -- /home/loknor/.config/i3/config [86ms]
+2024-09-09 08:34:33.262 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-09 08:35:04.826 [info] > git check-ignore -v -z --stdin [1ms]
